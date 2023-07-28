@@ -1,0 +1,22 @@
+<tr>
+  <td>
+    <%= image_tag item.product.image.tiny.url %>
+  </td>
+  <td>
+    <h4><%= item.product.name %></h4>
+    <br>
+    <p><%= item.product.description %></p>
+  </td>
+  <div>
+    <td>
+      Quantity: <%= item.product.quantity %>
+    </td>
+    <td>
+      Remove Item <%= link_to fa_icon('trash'), [:admin, item.product], class: 'btn btn-sm btn-danger', method: :delete, data: { confirm: "Are you sure?" } %>
+    </td>
+    <br>
+    <td>
+      Order Total: <%= humanized_money_with_symbol item.product.price * item.quantity %>
+    </td>
+  </div>
+</tr>
