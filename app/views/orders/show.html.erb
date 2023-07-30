@@ -3,9 +3,13 @@
   <header class="page-header">
     <h1>Order #<%= @order.id %></h1>
   </header>
-
+  <div>
+    <% @order.line_items.each do |item| %>
+      <%= render 'line_item', item: item %>
+    <% end %>
+  </div>
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h4>Thank you for your order, <%= @order.email %>!</h4>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
