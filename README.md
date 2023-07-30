@@ -20,6 +20,8 @@ If Rails is complaining about authentication to the database, uncomment the user
 ## Stripe Testing
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+Ensure the expiry is set to a future date eg. 12/34 or if checking for decline error, a past date.
+The CVV can be any 3 digitis.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
