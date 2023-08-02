@@ -1,6 +1,25 @@
 # Jungle
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+Implementing multiple bug fixes and features to the base code, style adjustments and introducing cypress for testing.
+
+## Screenshots
+
+![Jungle Homepage](https://github.com/wfhopkins/jungle_project/blob/main/docs/Jungle%20Home.png?raw=true)
+###Homepage
+
+
+![Product Panes](https://github.com/wfhopkins/jungle_project/blob/main/docs/Product%20Panes.png?raw=true)
+###Product Panes
+
+
+![Item in Cart](https://github.com/wfhopkins/jungle_project/blob/main/docs/Item%20in%20Cart.png?raw=true)
+###Item in Cart
+
+
+![About Page](https://github.com/wfhopkins/jungle_project/blob/main/docs/Jungle%20About.png?raw=true)
+###About Page
+
 
 ## Setup
 
